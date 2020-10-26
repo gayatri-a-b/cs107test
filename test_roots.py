@@ -23,3 +23,10 @@ def test_linearroots_types():
 def test_linearroots_zerocoeff():
     with pytest.raises(ValueError):
         roots.linear_roots(a=0.0)
+
+test_quadroots_result()
+test_quadroots_types()
+test_quadroots_zerocoeff()
+test_linearoots_result()
+test_linearroots_types()
+test_linearroots_zerocoeff()
